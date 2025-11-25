@@ -4721,13 +4721,13 @@ body {
     padding: 50px 30px !important;
     margin-top: 50px;
     box-shadow: 0 10px 35px rgba(0,0,0,0.08);
-    max-width: 900px;
+    max-width: 100%;
 }
 
 /* Profile Picture */
 .profile-pic {
-    width: 260px !important;
-    height: 260px !important;
+    width: 360px !important;
+    height: 360px !important;
     border-radius: 50% !important;
     object-fit: cover;
     border: 6px solid #ffffff;
@@ -4798,7 +4798,7 @@ body {
 
 /* Clean Navigation */
 #nav {
-    background: rgba(255,255,255,0.85) !important;
+    background: rgba(0,0,0,0) !important;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.12);
