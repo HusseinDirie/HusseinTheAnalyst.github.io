@@ -4696,3 +4696,110 @@ input, select, textarea {
 		}
 
 	}
+
+/* ============================================================
+   MODERN PORTFOLIO THEME OVERRIDE – 2025 EDITION
+   Works with HTML5UP Massively WITHOUT touching HTML
+   ============================================================ */
+
+/* Modern Font */
+body, p, li, a {
+    font-family: "Poppins", sans-serif !important;
+    letter-spacing: 0.3px;
+}
+
+/* Background Cleaner */
+body {
+    background: #f3f5f7 !important;
+}
+
+/* Center Intro Content */
+#intro {
+    background: #ffffffaa;
+    backdrop-filter: blur(8px);
+    border-radius: 22px;
+    padding: 50px 30px !important;
+    margin-top: 50px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.08);
+    max-width: 900px;
+}
+
+/* Profile Picture */
+.profile-pic {
+    width: 260px !important;
+    height: 260px !important;
+    border-radius: 50% !important;
+    object-fit: cover;
+    border: 6px solid #ffffff;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+}
+
+/* Title */
+#intro h1 {
+    font-size: 3.2rem !important;
+    color: #1a1a1a !important;
+    font-weight: 700;
+}
+
+/* Subtitle */
+#intro p {
+    font-size: 1.1rem !important;
+    color: #444;
+    margin-top: 10px !important;
+}
+
+/* Buttons */
+.button, #intro .button {
+    background: linear-gradient(135deg, #00b4d8, #0a9396) !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    padding: 0 25px !important;
+    height: 3.2rem !important;
+    line-height: 3.2rem !important;
+    border: none !important;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.20);
+}
+
+/* Main Content Cleaner */
+#main {
+    background: #ffffff !important;
+    border-radius: 22px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.07);
+    margin-top: 40px !important;
+    padding-top: 20px !important;
+}
+
+/* Fix Cards */
+.posts article {
+    border-radius: 18px !important;
+    border: 1px solid #ececec !important;
+    background: #fff !important;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.06) !important;
+}
+
+.posts article h2 {
+    color: #1e1e1e !important;
+    font-size: 1.6rem !important;
+}
+
+/* Footer clean style */
+#footer {
+    background: #ffffff !important;
+    border-radius: 20px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.05);
+    padding: 40px !important;
+}
+
+/* Clean Navigation */
+#nav {
+    background: rgba(255,255,255,0.85) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
