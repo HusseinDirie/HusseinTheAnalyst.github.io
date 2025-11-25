@@ -4798,7 +4798,7 @@ body {
 
 /* Clean Navigation */
 #nav {
-    background: rgba(8, 8, 8, 0.85) !important;
+    background: rgba(0, 0, 0, 0.85) !important;
     backdrop-filter: blur(10px);
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.12);
